@@ -1,0 +1,142 @@
+package ftor_junit;
+
+import org.openqa.selenium.By;
+
+/*********************************************************************************
+ * Superclasse -> Classe responsável pela implementação dos métodos referentes à
+ * tela de resultado da consulta por preço e prazo de entrega que posteriormente
+ * serão chamados dentro dos casos de teste.
+ *********************************************************************************/
+public class ConsultaReqAlunoUtils extends Utils {
+
+	public String urlAlterada = null;
+
+	public void acessarURLEstacio() throws Exception {
+
+		acessarURL(ConfigureExecution.url);
+	}
+
+
+	//Requerimento
+	public void alterarJanelaSIATopo() throws Exception {
+
+		// pausa der 3s
+		pausar(3000);
+
+		//se for dsiame2:
+		alterarJanelaPorTituloPagina("SIA - Sistema de Informações Acadêmicas");                             
+
+		
+	}
+	
+	//Requerimento
+	public void alterarFrameTopo() throws Exception {
+		
+		//se for dsiame2:
+		alterarFocoFrame("begin");
+
+	}
+
+	//Requerimento
+	public void alterarFrameMenuLateral() throws Exception {
+
+		alterarFocoFrame("conteudo");
+
+	}
+
+	
+	//Requerimento
+	public void clicarMenuRequerimento() throws Exception {
+
+		try {
+			// Clica no Menu Requerimento
+			 clicarElemento(By.linkText("+Requerimentos"), "Menu Requerimento");
+			
+		} catch (Exception e) {
+			 clicarElemento(By.linkText("-Requerimentos"), "Menu Requerimento Aberto");
+			 clicarElemento(By.linkText("+Requerimentos"), "Menu Requerimento");
+		}
+		
+
+	}
+	
+	//Requerimento  
+	public void clicarSubMenuConsultaRequerimento() throws Exception {
+
+		// Clica em Novo Requerimento
+		clicarElemento(By.linkText("Consulta"), "Sub Menu Consulta Requerimento");
+
+	}
+
+	//Requerimento
+	public void alterarJanelaPrincipal() throws Exception {
+
+		alterarFocoFrame("principal");
+	}
+
+	//Requerimento
+	public void preencherMatriculaAluno() throws Exception {
+
+		escreverTexto(By.name("cod_matricula"), "201703061373", "Preenche a matricula 201703061373");
+
+	}
+
+	//Requerimento
+	public void clicarPesquisar() throws Exception {
+
+		clicarElemento(By.name("acao"), "Botão Pesquisar");
+		
+		pausar(2000);
+	}
+	
+	//Requerimento
+	public void clicarDeclaracaoMatricula() throws Exception {
+
+		clicarElemento(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='DECLARAÇÃO DE ESTÁGIO'])[1]/preceding::input[1]"), "Radiobutton Declaracao de Matricula");
+		
+		pausar(2000);
+	}
+
+	
+	//Requerimento
+	public void clicarContinuar() throws Exception {
+
+		clicarElemento(By.xpath("*//table[3]/tbody/tr/td[1]/input"), "Botão Continuar");
+		
+		pausar(2000);
+	}
+	
+	//Requerimento
+	public void clicarFechar() throws Exception {
+
+		clicarElemento(By.xpath("*//table[3]/tbody/tr/td[2]/input"), "Botão fechar");
+		
+		pausar(2000);
+	}
+	
+	//Requerimento
+	public void clicarCancelar() throws Exception {
+
+		clicarElemento(By.xpath("*//table[6]/tbody/tr/td[2]/input"), "Botão Cancelar");
+		
+		pausar(2000);
+	}
+
+	//Requerimento
+	public void verificarNomeAluno() throws Exception {
+
+		contemTextoPresentePorElemento2(By.name("cod_matricula_aluno"), "201703061373", "Verifica se apresenta nome de Aluno");
+		//String codigoMatricula = driver.findElement(By.name("cod_matricula_aluno")).getAttribute("value");
+
+		pausar(2000);
+		
+	}
+	
+	//Requerimento
+	public void clicarRetornar() throws Exception {
+
+		clicarElemento(By.name("acao"), "Botão Retornar");
+	}
+	
+
+}

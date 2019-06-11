@@ -1,0 +1,297 @@
+public void Menu(){
+
+        Scanner entrada = new Scanner(System.in);
+        int opcaoteste = 0;
+        int opcaobrowser = 0;
+
+
+    do{
+
+        System.out.println("**************************************************************************************");
+        System.out.println("********************     SEJA BEM VINDO AO PAINEL MI TESTE     ***********************");
+        System.out.println("********************     ********************************      ***********************");
+        System.out.println("********************     ESCOLHA A OPÇÃO PARA O SEU TESTE      ***********************");
+        System.out.println("**************************************************************************************");
+        System.out.println("********************     OPÇÕES DE TESTE NO LOGIN              ***********************");
+        System.out.println("********************     1 - LOGIN ESTADO ESPIRITO SANTO       ***********************");
+        System.out.println("********************     2 - LOGIN REGIONAL NORTE              ***********************");
+        System.out.println("********************     3 - LOGIN REGIONAL SUL                ***********************");
+        System.out.println("********************     4 - LOGIN REGIONAL CENTRO             ***********************");
+        System.out.println("********************     5 - LOGIN REGIONAL METROPOLITANA      ***********************");
+        System.out.println("**************************************************************************************");
+        System.out.println("********************     OPÇÕES DE BROWSER                     ***********************");
+        System.out.println("********************     1 - GOOGLE CHROME                     ***********************");
+        System.out.println("********************     2 - MOZILLA FIREFOX                   ***********************");
+        System.out.println("********************     3 - INTERNET EXPLORER                 ***********************");
+        System.out.println("**************************************************************************************");
+
+        Scanner entradateste = new Scanner(System.in);
+        Scanner entradabrowser = new Scanner(System.in);
+
+        System.out.println("\n\n Digite a opção de login:");
+        opcaoteste = entradateste.nextInt();
+
+        if(opcaoteste == 0){
+            System.out.printf("Você escolheu a opcao sair: " + "\n" + "\n" + opcaoteste + " - " + "saindo......" + "\n");   
+        }else if(opcaoteste == 1){
+            System.out.printf("Você escolheu a opcao de teste de login: " + "\n" + "\n" + opcaoteste + " - " + "Espirito Santo" + "\n");
+        }else if(opcaoteste == 2){
+            System.out.printf("Você escolheu a opcao de teste de login: " + "\n" + "\n" + opcaoteste + " - " + "Regional Norte" + "\n");
+        }else if(opcaoteste == 3){  
+            System.out.printf("Você escolheu a opcao de teste de login: " + "\n" + "\n" + opcaoteste + " - " + "Regional Sul" + "\n");
+        }else if(opcaoteste == 4){
+            System.out.printf("Você escolheu a opcao de teste de login: " + "\n" + "\n" + opcaoteste + " - " + "Regional Centro" + "\n");
+        }else if(opcaoteste == 5){
+            System.out.printf("Você escolheu a opcao de teste de login: " + "\n" + "\n" + opcaoteste + " - " + "Regional Metropolitana" + "\n");
+        }
+
+        switch(opcaoteste){
+        case 1: 
+            System.out.println("\nDigite o browser para a execucao do teste:");
+            opcaobrowser = entradabrowser.nextInt();
+
+            if(opcaobrowser == 1){
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Google Chrome" + "\n");
+
+                System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+                driver = new ChromeDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+
+            }else if(opcaobrowser == 2){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Mozilla Firefox" + "\n");
+
+                System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
+                driver = new FirefoxDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+            }else if(opcaobrowser == 3){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Internet Explorer" + "\n");
+
+                System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
+                driver = new InternetExplorerDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();         
+            }           
+            break;
+
+        case 2: 
+            System.out.println("\nDigite o browser para a execucao do teste:");
+            opcaobrowser = entradabrowser.nextInt();
+
+            if(opcaobrowser == 1){
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Google Chrome" + "\n");
+
+                System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+                driver = new ChromeDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+
+            }else if(opcaobrowser == 2){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Mozilla Firefox" + "\n");
+                System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
+                driver = new FirefoxDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+            }else if(opcaobrowser == 3){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Internet Explorer" + "\n");
+
+                System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
+                driver = new InternetExplorerDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+              }
+            break;
+
+        case 3: 
+            System.out.println("\nDigite o browser para a execucao do teste:");
+            opcaobrowser = entradabrowser.nextInt();
+
+            if(opcaobrowser == 1){
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Google Chrome" + "\n");
+
+                System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+                driver = new ChromeDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+
+            }else if(opcaobrowser == 2){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Mozilla Firefox" + "\n");
+
+                System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
+                driver = new FirefoxDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+            }else if(opcaobrowser == 3){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Internet Explorer" + "\n");
+
+                System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
+                driver = new InternetExplorerDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+              }
+            break;
+
+        case 4:
+            System.out.println("\nDigite o browser para a execucao do teste:");
+            opcaobrowser = entradabrowser.nextInt();
+
+            if(opcaobrowser == 1){
+                System.out.printf("você escolheu o Browser:" + opcaobrowser + "-" + "Google Chrome" + "\n");
+
+                System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+                driver = new ChromeDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+
+            }else if(opcaobrowser == 2){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Mozilla Firefox" + "\n");
+
+                System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
+                driver = new FirefoxDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+            }else if(opcaobrowser == 3){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Internet Explorer" + "\n");
+
+                System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
+                driver = new InternetExplorerDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+              }
+            break;
+
+        case 5:
+            System.out.println("\nDigite o browser para a execucao do teste:");
+            opcaobrowser = entradabrowser.nextInt();
+
+            if(opcaobrowser == 1){
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Google Chrome" + "\n");
+
+                System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+                driver = new ChromeDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+
+            }else if(opcaobrowser == 2){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Mozilla Firefox" + "\n");
+
+                System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
+                driver = new FirefoxDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+            }else if(opcaobrowser == 3){
+
+                System.out.printf("Você escolheu o Browser:" + opcaobrowser + "-" + "Internet Explorer" + "\n");
+
+                System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
+                driver = new InternetExplorerDriver();
+                driver.get("http://painel.miaedes.com.br");
+                driver.manage().window().maximize();
+                driver.findElement(By.id("username")).click();
+                driver.findElement(By.id("username")).sendKeys("");
+                driver.findElement(By.id("password")).click();
+                driver.findElement(By.id("password")).sendKeys("");
+                driver.findElement(By.id("login-button")).click();
+                driver.findElement(By.id("logoff-button")).click();
+              }
+            break;
+
+            default:    
+                System.out.printf("Opção Inválida digite uma outra opção: \n\n");
+          }
+       }while(opcaoteste !=0);
+    }

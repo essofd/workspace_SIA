@@ -1,0 +1,257 @@
+2019-05-27 16:25:24 INFO  ReportLog:118 - ***** Start LOG4J *****
+2019-05-27 16:25:24 INFO  ReportLog:123 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 16:25:25 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br/
+2019-05-27 16:25:25 INFO  BaseSIA:51 - Preenche o campo de texto Login com o valor 1042505
+2019-05-27 16:25:25 INFO  BaseSIA:51 - Clica no elemento Botao Enviar
+2019-05-27 16:25:31 INFO  BaseSIA:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-05-27 16:25:32 INFO  BaseSIA:51 - Altera o foco para o frame begin
+2019-05-27 16:25:32 INFO  BaseSIA:51 - Preenche o campo de texto Senha com o valor 1234as
+2019-05-27 16:25:32 INFO  BaseSIA:51 - Clica no elemento Botao Entrar
+2019-05-27 16:25:35 INFO  BaseSIA:51 - Valida que o elemento Texto help contém em sua propriedade 'text' o texto help
+2019-05-27 16:25:35 INFO  BaseSIA:51 - Clica no elemento Link Formação Academica
+2019-05-27 16:25:35 INFO  BaseSIA:51 - Altera o foco para o frame conteudo
+2019-05-27 16:25:35 INFO  BaseSIA:130 - ***** End LOG4J *****
+
+2019-05-27 16:25:37 INFO  ReportLog:118 - ***** Start LOG4J *****
+2019-05-27 16:25:37 INFO  ReportLog:123 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 16:25:37 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Menu Requerimento
+2019-05-27 16:25:38 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Sub Menu Consulta Requerimento
+2019-05-27 16:25:43 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-05-27 16:25:43 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame begin
+2019-05-27 16:25:43 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame principal
+2019-05-27 16:25:43 INFO  ConsultaRequerimentoProtocolo:51 - Preenche o campo de texto Preenche o Protocolo 20350484 com o valor 20350484
+2019-05-27 16:25:44 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Pesquisar
+2019-05-27 16:25:47 INFO  ConsultaRequerimentoProtocolo:51 - Valida que o elemento Verifica se apresenta nome de Aluno contém em sua propriedade 'text' o texto 201703061373
+2019-05-27 16:25:49 INFO  ConsultaRequerimentoProtocolo:51 - Realiza a ação 'Mouse Scroll' de cima para baixo na página
+2019-05-27 16:25:50 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Retornar
+2019-05-27 16:25:50 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Cancelar
+2019-05-27 16:25:52 INFO  ConsultaRequerimentoProtocolo:51 - Sai do frame
+2019-05-27 16:25:52 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame begin
+2019-05-27 16:25:52 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame conteudo
+2019-05-27 16:25:52 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Menu Requerimento
+2019-05-27 16:25:52 INFO  ConsultaRequerimentoProtocolo:130 - ***** End LOG4J *****
+
+2019-05-27 16:25:55 INFO  ReportLog:118 - ***** Start LOG4J *****
+2019-05-27 16:25:55 INFO  ReportLog:123 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 16:25:55 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Menu Requerimento
+2019-05-27 16:25:56 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Sub Menu Consulta Requerimento
+2019-05-27 16:26:01 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-05-27 16:26:01 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame begin
+2019-05-27 16:26:01 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame principal
+2019-05-27 16:26:01 INFO  ConsultaRequerimentoAlunoRegular:51 - Preenche o campo de texto Preenche a matricula 201703061373 com o valor 201703061373
+2019-05-27 16:26:01 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Pesquisar
+2019-05-27 16:26:04 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Pesquisar
+2019-05-27 16:26:06 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Radiobutton Declaracao de Matricula
+2019-05-27 16:26:09 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Continuar
+2019-05-27 16:26:11 INFO  ConsultaRequerimentoAlunoRegular:51 - Valida que o elemento Verifica se apresenta nome de Aluno contém em sua propriedade 'text' o texto 201703061373
+2019-05-27 16:26:13 INFO  ConsultaRequerimentoAlunoRegular:51 - Realiza a ação 'Mouse Scroll' de cima para baixo na página
+2019-05-27 16:26:13 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Retornar
+2019-05-27 16:26:13 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão fechar
+2019-05-27 16:26:16 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Cancelar
+2019-05-27 16:26:18 INFO  ConsultaRequerimentoAlunoRegular:51 - Sai do frame
+2019-05-27 16:26:18 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame begin
+2019-05-27 16:26:18 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame conteudo
+2019-05-27 16:26:18 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Menu Requerimento
+2019-05-27 16:26:18 INFO  ConsultaRequerimentoAlunoRegular:130 - ***** End LOG4J *****
+
+2019-05-27 18:33:43 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-05-27 18:33:43 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 18:33:44 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br/
+2019-05-27 18:33:44 INFO  BaseSIA:51 - Preenche o campo de texto Login com o valor 1042505
+2019-05-27 18:33:45 INFO  BaseSIA:51 - Clica no elemento Botao Enviar
+2019-05-27 18:35:26 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-05-27 18:35:26 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 18:35:27 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br/
+2019-05-27 18:35:27 INFO  BaseSIA:51 - Preenche o campo de texto Login com o valor 1042505
+2019-05-27 18:35:27 INFO  BaseSIA:51 - Clica no elemento Botao Enviar
+2019-05-27 18:35:33 INFO  BaseSIA:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-05-27 18:35:33 INFO  BaseSIA:51 - Altera o foco para o frame begin
+2019-05-27 18:35:33 INFO  BaseSIA:51 - Preenche o campo de texto Senha com o valor 1234as
+2019-05-27 18:35:34 INFO  BaseSIA:51 - Clica no elemento Botao Entrar
+2019-05-27 18:35:37 INFO  BaseSIA:51 - Valida que o elemento Texto help contém em sua propriedade 'text' o texto help
+2019-05-27 18:35:37 INFO  BaseSIA:51 - Clica no elemento Link Formação Academica
+2019-05-27 18:35:37 INFO  BaseSIA:51 - Altera o foco para o frame conteudo
+2019-05-27 18:35:37 INFO  BaseSIA:129 - ***** End LOG4J *****
+
+2019-05-27 18:35:39 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-05-27 18:35:39 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 18:35:39 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Menu Requerimento
+2019-05-27 18:35:40 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Sub Menu Consulta Requerimento
+2019-05-27 18:35:45 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-05-27 18:35:45 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame begin
+2019-05-27 18:35:45 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame principal
+2019-05-27 18:35:45 INFO  ConsultaRequerimentoProtocolo:51 - Preenche o campo de texto Preenche o Protocolo 20350484 com o valor 20350484
+2019-05-27 18:35:46 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Pesquisar
+2019-05-27 18:35:51 INFO  ConsultaRequerimentoProtocolo:51 - Valida que o elemento Verifica se apresenta nome de Aluno contém em sua propriedade 'text' o texto 201703061373
+2019-05-27 18:35:53 INFO  ConsultaRequerimentoProtocolo:51 - Realiza a ação 'Mouse Scroll' de cima para baixo na página
+2019-05-27 18:35:54 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Retornar
+2019-05-27 18:35:54 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Cancelar
+2019-05-27 18:35:56 INFO  ConsultaRequerimentoProtocolo:51 - Sai do frame
+2019-05-27 18:35:56 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame begin
+2019-05-27 18:35:56 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame conteudo
+2019-05-27 18:35:56 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Menu Requerimento
+2019-05-27 18:35:56 INFO  ConsultaRequerimentoProtocolo:129 - ***** End LOG4J *****
+
+2019-05-27 18:35:59 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-05-27 18:35:59 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 18:35:59 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Menu Requerimento
+2019-05-27 18:36:00 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Sub Menu Consulta Requerimento
+2019-05-27 18:36:05 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-05-27 18:36:05 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame begin
+2019-05-27 18:36:05 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame principal
+2019-05-27 18:36:05 INFO  ConsultaRequerimentoAlunoRegular:51 - Preenche o campo de texto Preenche a matricula 201703061373 com o valor 201703061373
+2019-05-27 18:36:06 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Pesquisar
+2019-05-27 18:36:08 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Pesquisar
+2019-05-27 18:36:10 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Radiobutton Declaracao de Matricula
+2019-05-27 18:36:13 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Continuar
+2019-05-27 18:36:15 INFO  ConsultaRequerimentoAlunoRegular:51 - Valida que o elemento Verifica se apresenta nome de Aluno contém em sua propriedade 'text' o texto 201703061373
+2019-05-27 18:36:17 INFO  ConsultaRequerimentoAlunoRegular:51 - Realiza a ação 'Mouse Scroll' de cima para baixo na página
+2019-05-27 18:36:17 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Retornar
+2019-05-27 18:36:17 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão fechar
+2019-05-27 18:36:20 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Cancelar
+2019-05-27 18:36:22 INFO  ConsultaRequerimentoAlunoRegular:51 - Sai do frame
+2019-05-27 18:36:22 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame begin
+2019-05-27 18:36:22 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame conteudo
+2019-05-27 18:36:22 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Menu Requerimento
+2019-05-27 18:36:22 INFO  ConsultaRequerimentoAlunoRegular:129 - ***** End LOG4J *****
+
+2019-05-27 18:38:14 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-05-27 18:38:14 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 18:38:15 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br/
+2019-05-27 18:38:15 INFO  BaseSIA:51 - Preenche o campo de texto Login com o valor 1042505
+2019-05-27 18:38:16 INFO  BaseSIA:51 - Clica no elemento Botao Enviar
+2019-05-27 18:38:22 INFO  BaseSIA:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-05-27 18:38:22 INFO  BaseSIA:51 - Altera o foco para o frame begin
+2019-05-27 18:38:22 INFO  BaseSIA:51 - Preenche o campo de texto Senha com o valor 1234as
+2019-05-27 18:38:22 INFO  BaseSIA:51 - Clica no elemento Botao Entrar
+2019-05-27 18:38:25 INFO  BaseSIA:51 - Valida que o elemento Texto help contém em sua propriedade 'text' o texto help
+2019-05-27 18:38:26 INFO  BaseSIA:51 - Clica no elemento Link Formação Academica
+2019-05-27 18:38:26 INFO  BaseSIA:51 - Altera o foco para o frame conteudo
+2019-05-27 18:38:26 INFO  BaseSIA:129 - ***** End LOG4J *****
+
+2019-05-27 18:38:27 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-05-27 18:38:27 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 18:38:27 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Menu Requerimento
+2019-05-27 18:38:28 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Sub Menu Consulta Requerimento
+2019-05-27 18:38:33 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-05-27 18:38:33 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame begin
+2019-05-27 18:38:33 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame principal
+2019-05-27 18:38:34 INFO  ConsultaRequerimentoProtocolo:51 - Preenche o campo de texto Preenche o Protocolo 20350484 com o valor 20350484
+2019-05-27 18:38:34 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Pesquisar
+2019-05-27 18:38:38 INFO  ConsultaRequerimentoProtocolo:51 - Valida que o elemento Verifica se apresenta nome de Aluno contém em sua propriedade 'text' o texto 201703061373
+2019-05-27 18:38:40 INFO  ConsultaRequerimentoProtocolo:51 - Realiza a ação 'Mouse Scroll' de cima para baixo na página
+2019-05-27 18:38:41 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Retornar
+2019-05-27 18:38:41 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Cancelar
+2019-05-27 18:38:43 INFO  ConsultaRequerimentoProtocolo:51 - Sai do frame
+2019-05-27 18:38:43 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame begin
+2019-05-27 18:38:43 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame conteudo
+2019-05-27 18:38:43 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Menu Requerimento
+2019-05-27 18:38:43 INFO  ConsultaRequerimentoProtocolo:129 - ***** End LOG4J *****
+
+2019-05-27 18:38:44 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-05-27 18:38:44 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 74.0.3729.169  |   S.O: Windows 10
+2019-05-27 18:38:44 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Menu Requerimento
+2019-05-27 18:38:45 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Sub Menu Consulta Requerimento
+2019-05-27 18:38:50 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-05-27 18:38:50 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame begin
+2019-05-27 18:38:50 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame principal
+2019-05-27 18:38:50 INFO  ConsultaRequerimentoAlunoRegular:51 - Preenche o campo de texto Preenche a matricula 201703061373 com o valor 201703061373
+2019-05-27 18:38:51 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Pesquisar
+2019-05-27 18:38:53 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Pesquisar
+2019-05-27 18:38:55 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Radiobutton Declaracao de Matricula
+2019-05-27 18:38:58 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Continuar
+2019-05-27 18:39:00 INFO  ConsultaRequerimentoAlunoRegular:51 - Valida que o elemento Verifica se apresenta nome de Aluno contém em sua propriedade 'text' o texto 201703061373
+2019-05-27 18:39:02 INFO  ConsultaRequerimentoAlunoRegular:51 - Realiza a ação 'Mouse Scroll' de cima para baixo na página
+2019-05-27 18:39:02 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Retornar
+2019-05-27 18:39:02 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão fechar
+2019-05-27 18:39:05 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Botão Cancelar
+2019-05-27 18:39:07 INFO  ConsultaRequerimentoAlunoRegular:51 - Sai do frame
+2019-05-27 18:39:07 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame begin
+2019-05-27 18:39:07 INFO  ConsultaRequerimentoAlunoRegular:51 - Altera o foco para o frame conteudo
+2019-05-27 18:39:07 INFO  ConsultaRequerimentoAlunoRegular:51 - Clica no elemento Menu Requerimento
+2019-05-27 18:39:07 INFO  ConsultaRequerimentoAlunoRegular:129 - ***** End LOG4J *****
+
+2019-06-06 14:44:05 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-06 14:44:05 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-06 14:44:12 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br:17371/
+2019-06-06 14:44:13 INFO  BaseSIA:51 - Preenche o campo de texto Login com o valor 1042505
+2019-06-06 14:44:13 INFO  BaseSIA:51 - Clica no elemento Botao Enviar
+2019-06-06 14:49:17 ERROR BaseSIA:60 - Não foi possível alterar o foco para a janela com o título SIA - Sistema de Informações Acadêmicas
+2019-06-06 14:49:17 INFO  BaseSIA:61 - ***** End LOG4J *****
+
+2019-06-06 15:05:01 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-06 15:05:01 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-06 15:05:01 ERROR BaseSIA:60 - Não foi possível acessar a URL null
+2019-06-06 15:05:01 INFO  BaseSIA:61 - ***** End LOG4J *****
+
+2019-06-06 15:09:00 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-06 15:09:00 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-06 15:09:00 ERROR BaseSIA:60 - Não foi possível acessar a URL null
+2019-06-06 15:09:00 INFO  BaseSIA:61 - ***** End LOG4J *****
+
+2019-06-06 15:10:41 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-06 15:10:41 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-06 15:10:48 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br:17371/
+2019-06-06 15:11:03 INFO  BaseSIA:51 - Preenche o campo de texto Login com o valor 1042505
+2019-06-06 15:11:08 INFO  BaseSIA:51 - Clica no elemento Botao Enviar
+2019-06-06 15:11:31 INFO  BaseSIA:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-06-06 15:15:15 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-06 15:15:15 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-06 15:15:23 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br:17371/
+2019-06-06 15:15:23 INFO  BaseSIA:51 - Preenche o campo de texto Login com o valor 1042505
+2019-06-06 15:15:24 INFO  BaseSIA:51 - Clica no elemento Botao Enviar
+2019-06-06 15:15:36 INFO  BaseSIA:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-06-10 15:33:36 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-10 15:33:36 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-10 15:33:44 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br:17371/
+2019-06-10 15:34:59 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-10 15:34:59 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-10 15:35:00 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br/
+2019-06-10 15:35:00 INFO  BaseSIA:51 - Preenche o campo de texto Login com o valor 1042505
+2019-06-10 15:35:01 INFO  BaseSIA:51 - Clica no elemento Botao Enviar
+2019-06-10 15:35:09 INFO  BaseSIA:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-06-10 15:35:09 INFO  BaseSIA:51 - Altera o foco para o frame begin
+2019-06-10 15:35:10 INFO  BaseSIA:51 - Preenche o campo de texto Senha com o valor 1234as
+2019-06-10 15:35:10 INFO  BaseSIA:51 - Clica no elemento Botao Entrar
+2019-06-10 15:35:14 INFO  BaseSIA:51 - Valida que o elemento Texto help contém em sua propriedade 'text' o texto help
+2019-06-10 15:35:15 INFO  BaseSIA:51 - Clica no elemento Link Formação Academica
+2019-06-10 15:35:15 INFO  BaseSIA:51 - Altera o foco para o frame conteudo
+2019-06-10 15:35:15 INFO  BaseSIA:129 - ***** End LOG4J *****
+
+2019-06-10 15:35:18 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-10 15:35:18 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-10 15:35:18 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Menu Requerimento
+2019-06-10 15:44:00 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-10 15:44:00 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-10 15:44:01 INFO  BaseSIA:51 - Acessa a URL http://dsiame.estacio.rj.br/
+2019-06-10 15:44:01 INFO  BaseSIA:51 - Preenche o campo de texto Login com o valor 1042505
+2019-06-10 15:44:01 INFO  BaseSIA:51 - Clica no elemento Botao Enviar
+2019-06-10 15:44:08 INFO  BaseSIA:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-06-10 15:44:08 INFO  BaseSIA:51 - Altera o foco para o frame begin
+2019-06-10 15:44:08 INFO  BaseSIA:51 - Preenche o campo de texto Senha com o valor 1234as
+2019-06-10 15:44:08 INFO  BaseSIA:51 - Clica no elemento Botao Entrar
+2019-06-10 15:44:11 INFO  BaseSIA:51 - Valida que o elemento Texto help contém em sua propriedade 'text' o texto help
+2019-06-10 15:44:12 INFO  BaseSIA:51 - Clica no elemento Link Formação Academica
+2019-06-10 15:44:12 INFO  BaseSIA:51 - Altera o foco para o frame conteudo
+2019-06-10 15:44:12 INFO  BaseSIA:129 - ***** End LOG4J *****
+
+2019-06-10 15:44:14 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-10 15:44:14 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-10 15:44:14 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Menu Requerimento
+2019-06-10 15:44:16 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Sub Menu Consulta Requerimento
+2019-06-10 15:44:21 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para janela com o título SIA - Sistema de Informações Acadêmicas
+2019-06-10 15:44:21 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame begin
+2019-06-10 15:44:21 INFO  ConsultaRequerimentoProtocolo:51 - Altera o foco para o frame principal
+2019-06-10 15:44:22 INFO  ConsultaRequerimentoProtocolo:51 - Preenche o campo de texto Preenche o Protocolo 20350484 com o valor 20350484
+2019-06-10 15:44:23 INFO  ConsultaRequerimentoProtocolo:51 - Clica no elemento Botão Pesquisar
+2019-06-10 15:44:40 ERROR ConsultaRequerimentoProtocolo:60 - Não foi possível validar que o elemento By.name: cod_matricula_aluno contenha em sua propriedade 'text' o texto 201703061373
+2019-06-10 15:44:40 INFO  ConsultaRequerimentoProtocolo:61 - ***** End LOG4J *****
+
+2019-06-10 15:44:40 INFO  ReportLog:117 - ***** Start LOG4J *****
+2019-06-10 15:44:40 INFO  ReportLog:122 - Caso de Teste: BaseSIA  |   Colaborador: essofd  |   Browser: chrome  |   Versão: 75.0.3770.80  |   S.O: Windows 10
+2019-06-10 15:45:11 ERROR ConsultaRequerimentoAlunoRegular:60 - Timeout por aguardar pela presença do elemento By.linkText: +Requerimentos por 30 segundos
+2019-06-10 15:45:11 INFO  ConsultaRequerimentoAlunoRegular:61 - ***** End LOG4J *****
+
+2019-06-10 15:45:12 ERROR ConsultaRequerimentoAlunoRegular:60 - Não foi possível clicar no elemento By.linkText: +Requerimentos
+2019-06-10 15:45:12 INFO  ConsultaRequerimentoAlunoRegular:61 - ***** End LOG4J *****
+

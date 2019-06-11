@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.internal.ProfilesIni"/>
+<fullyQualifiedTypeName name="ftor_junit.CalculoDescontoUtils"/>
+<fullyQualifiedTypeName name="ftor_junit.CadastroUtils"/>
+<fullyQualifiedTypeName name="javax.security.auth.login.Configuration"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="test_case.BaseSIA"/>
+<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
+<fullyQualifiedTypeName name="ftor_junit.ConfigureExecution"/>
+<fullyQualifiedTypeName name="org.hamcrest.core.IsNull"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.Equals"/>
+<fullyQualifiedTypeName name="ftor_junit.ReportLog"/>
+<fullyQualifiedTypeName name="ftor_junit.DataDriven"/>
+<fullyQualifiedTypeName name="test_case.SuiteTeste"/>
+<fullyQualifiedTypeName name="ftor_junit.TestUtils"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
+<fullyQualifiedTypeName name="org.junit.AfterClass"/>
+</qualifiedTypeNameHistroy>

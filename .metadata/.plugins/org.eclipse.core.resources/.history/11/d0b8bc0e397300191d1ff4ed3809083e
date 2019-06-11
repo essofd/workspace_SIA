@@ -1,0 +1,88 @@
+package ftor_junit;
+
+import org.openqa.selenium.By;
+
+/*********************************************************************************
+ * Superclasse -> Classe responsável pela implementação dos métodos referentes à
+ * tela de resultado da consulta por preço e prazo de entrega que posteriormente
+ * serão chamados dentro dos casos de teste.
+ *********************************************************************************/
+public class CadastroUtils extends Utils {
+
+	public String urlAlterada = null;
+
+	public void acessarURLEstacio() throws Exception {
+
+		acessarURL(ConfigureExecution.url);
+	}
+
+	public void logarNoSIA() throws Exception {
+
+		// Preenche o login
+		escreverTexto(By.name("txtLogin"), DataDriven.login, "Login");
+
+		// Clica em Enviar
+		clicarElemento(By.xpath("(//input[@name='image'])[1]"), "Botao Enviar");
+
+	}
+
+	public void alterarJanelaSIA() throws Exception {
+
+		// pausa der 6s
+		pausar(6000);
+
+//		String novaURL=ConfigureExecution.url;
+//		novaURL=novaURL.concat("?direto=true&entrada=true");
+//		alterarJanelaPorURL(novaURL);
+
+		alterarJanelaPorTituloPagina("SIA - Sistema de Informações Acadêmicas");
+
+		alterarFocoFrame("begin");
+
+		// pausa der 4s
+		pausar(4000);
+
+	}
+
+	public void preencherSenhaSIA() throws Exception {
+
+		escreverTexto(By.xpath("//*[@id='txtPassWord']"), DataDriven.senha, "Senha");
+
+	}
+
+	public void clicarEntrarSIA() throws Exception {
+
+		clicarElemento(By.xpath("//*[@id='bg-senha']/div/form/input[2]"), "Botao Enviar SIA");
+
+	}
+
+	public void clicarCatalogo() throws Exception {
+
+		clicarElemento(By.xpath("*//span/img"), "Botao Catalago");
+		
+
+	}
+
+	public void clicarNovoRequerimento() throws Exception {
+		
+		pausar(3000);
+		//clicarElemento(By.linkText("Nivel113"), "Menu Requerimento");
+		driver.findElement(By.xpath("//*[@id='Nivel113Child']/div[1]/a")).click();
+		
+		
+		
+		
+//		clicarElemento(By.linkText("Requerimentos"), "Menu Requerimento");
+//		pausar(3000);
+//		clicarElemento(By.linkText("Novo"), "SubMenu Novo");
+	}
+
+	public void preencherRequerenteAlunoRegular() throws Exception {
+
+	}
+
+	public void preencherNovoRequerimento() throws Exception {
+
+	};
+
+}
