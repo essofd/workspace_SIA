@@ -61,12 +61,8 @@ public class ConsultaReqAlunoUtils extends Utils {
 	//Requerimento
 	public void clicarMenuRequerimento() throws Exception {
 
-		
 			// Clica no Menu Requerimento
 			 clicarElemento(By.linkText("+Requerimentos"), "Menu Requerimento");
-			 
-	
-		
 
 	}
 	

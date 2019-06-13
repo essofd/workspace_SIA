@@ -54,8 +54,8 @@ public class BaseSIAUtils extends Utils {
 	public void clicarEntrarSIA() throws Exception {
 		clicarElemento(By.xpath("//*[@id='bg-senha']/div/form/input[2]"), "Botao Entrar");
 		
-		// pausa der 4s
-		pausar(4000);
+		// pausa der 5s
+		pausar(5000);
 		
 		elementoEstaPresente(By.linkText("Permissões"));
 

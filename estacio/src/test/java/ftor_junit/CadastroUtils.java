@@ -1,6 +1,7 @@
 package ftor_junit;
 
 import org.openqa.selenium.By;
+import org.junit.Assert;
 
 /*********************************************************************************
  * Superclasse -> Classe responsável pela implementação dos métodos referentes à
@@ -11,220 +12,183 @@ public class CadastroUtils extends Utils {
 
 	public String urlAlterada = null;
 
-//	//cadastro
-//	public void acessarURLEstacio() throws Exception {
-//
-//		acessarURL(ConfigureExecution.url);
-//	}
-//	
-//	//cadastro
-//	public void logarNoSIA() throws Exception {
-//
-//		// Preenche o login
-//		// escreverTexto(By.name("txtLogin"), DataDriven.login, "Login");
-//		escreverTexto(By.name("txtLogin"), "1042505", "Login");
-//
-//		// Clica em Enviar
-//		clicarElemento(By.xpath("(//input[@name='image'])[1]"), "Botao Enviar");
-//
-//	}
-
-	//cadastro xxx
-	public void alterarJanelaSIATopo() throws Exception {
-
-		// pausa der 3s
-		pausar(3000);
-
-		//se for dsiame2:
-		alterarJanelaPorTituloPagina("SIA - Sistema de Informações Acadêmicas");                             
-
-		
-	}
-	
-//	//cadastro
-//	public void alterarFrameTopo() throws Exception {
-//		
-//		//se for dsiame2:
-//		alterarFocoFrame("begin");
-//
-//	}
-//
-//	//cadastro
-//	public void preencherSenhaSIA() throws Exception {
-//
-//		// escreverTexto(By.xpath("//*[@id='txtPassWord']"), DataDriven.senha, "Senha");
-//		escreverTexto(By.xpath("//*[@id='txtPassWord']"), "1234as", "Senha");
-//	}
-//
-//	//cadastro
-//	public void clicarEntrarSIA() throws Exception {
-//
-//		clicarElemento(By.xpath("//*[@id='bg-senha']/div/form/input[2]"), "Botao Entrar");
-//		
-//		// pausa der 3s
-//		pausar(3000);
-//
-//		contemTextoPresentePorElemento(By.xpath("*//tr[2]/td[4]/a"), "help", "Texto help");
-//
-//	}
-	
-//	//cadastro
-//	public void clicarCatalogo() throws Exception {
-//
-//		clicarElemento(By.xpath("//img[@alt='Formação Acadêmica']"), "Link Formação Academica");
-//
-//	}
-
-	//cadastro xxx
-	public void alterarFrameMenuLateral() throws Exception {
-
+	// cadastro
+	public void clicarCatalogo() throws Exception {
+		alterarJanelaPorTituloPagina("SIA - Sistema de Informações Acadêmicas");
+		alterarFocoFrame("begin");
+		alterarFocoFrame("faixa");
+		// elementoEstaPresente(By.linkText("help"));
+		clicarElemento(By.xpath("//img[@alt='Formação Acadêmica']"), "Link Formação Academica");
+		// pausa der 2s
+		pausar(2000);
+		alterarFocoFrame("begin");
 		alterarFocoFrame("conteudo");
-
 	}
 
-	
-//	public void alterarFocoJanelaMenu() throws Exception {
-//
-//		alterarFocoFrame("faixa");
-//
-//	}
-	
-	//cadastro xxx
-	public void clicarNovoRequerimento() throws Exception {
+	// cadastro
+	public void clicarMenuRequerimento() throws Exception {
 
 		// Clica no Menu Requerimento
-		 clicarElemento(By.linkText("+Requerimentos"), "Menu Requerimento");
-		
+		clicarElemento(By.linkText("+Requerimentos"), "Menu Requerimento");
+
+	}
+
+	public void clicarSubMenuNovoRequerimento() throws Exception {
 
 		// Clica em Novo Requerimento
 		clicarElemento(By.linkText("Novo"), "Sub Menu Novo Requerimento");
 
 	}
-	
-//	//Requerimento //Protocolo
-//	public void clicarMenuRequerimento() throws Exception {
-//
-//		// Clica no Menu Requerimento
-//		clicarElemento(By.id("Nivel113"), "Menu Requerimento");
-//
-//	}
-//	
-//	//Requerimento //Protocolo
-//	public void clicarSubMenuConsultaRequerimento() throws Exception {
-//
-//		// Clica em Novo Requerimento
-//		clicarElemento(By.linkText("Consulta"), "Sub Menu Consulta Requerimento");
-//
-//	}
 
-	//cadastro xxx
+	// cadastro
+	public void alterarJanelaSIATopo() throws Exception {
+
+		// se for dsiame2:
+		alterarJanelaPorTituloPagina("SIA - Sistema de Informações Acadêmicas");
+
+	}
+
+	// cadastro
+	public void alterarFrameTopo() throws Exception {
+
+		// se for dsiame2:
+		alterarFocoFrame("begin");
+
+	}
+
+	// cadastro
 	public void alterarJanelaPrincipal() throws Exception {
-
 		alterarFocoFrame("principal");
 	}
-	
-	//cadastro xxx
+
+	// cadastro
 	public void clicarLupa() throws Exception {
 
 		clicarElemento(By.xpath("//img[@alt='Pesquisa Aluno']"), "Sub Menu Novo Requerimento");
 
 	}
-	//cadastro xxx
+
+	// cadastro
 	public void AlterarJanelaPesquisaAluno() throws Exception {
 
 		alterarJanelaPorTituloPagina("Pesquisa de Aluno");
 
 	}
 
-	//cadastro xxx
+	// cadastro
 	public void SelecionaAlunoRegular() throws Exception {
 
 		clicarElemento(By.name("tipo_aluno"), "Tipo aluno regular");
 
 	}
-//
-//	//PROTOCOLO
-//	public void preencherProtocolo() throws Exception {
-//
-//		escreverTexto(By.name("num_seq_requerimento"), "20350484", "Preenche o Protocolo 20350484");
-//
-//	}
-//	
-//	//Requerimento
-//	public void preencherMatriculaAluno() throws Exception {
-//
-//		escreverTexto(By.name("cod_matricula"), "201703061373", "Preenche a matricula 201703061373");
-//
-//	}
-//	
-//	public void limparNomeAluno() throws Exception {
-//
-//		limpaTexto(By.name("cod_matricula"));
-//
-//	}
-//	
-//	public void clicarNomeRequerente() throws Exception {
-//
-//		clicarElemento(By.name("nom_requerente"), "Nome Requerente");
-//
-//	}
-//
-//	//Requerimento //Protocolo
-//	public void clicarPesquisar() throws Exception {
-//
-//		clicarElemento(By.name("acao"), "Botão Pesquisar");
-//		
-//		pausar(2000);
-//	}
-//	
-//	//Requerimento
-//	public void clicarDeclaracaoMatricula() throws Exception {
-//
-//		clicarElemento(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='DECLARAÇÃO DE ESTÁGIO'])[1]/preceding::input[1]"), "Radiobutton Declaracao de Matricula");
-//		
-//		pausar(2000);
-//	}
-//
-//	
-//	//Requerimento
-//	public void clicarContinuar() throws Exception {
-//
-//		clicarElemento(By.xpath("*//table[3]/tbody/tr/td[1]/input"), "Botão Continuar");
-//		
-//		pausar(2000);
-//	}
-//	
-//	//Requerimento
-//	public void clicarFechar() throws Exception {
-//
-//		clicarElemento(By.xpath("*//table[3]/tbody/tr/td[2]/input"), "Botão fechar");
-//		
-//		pausar(2000);
-//	}
-//	
-//	//Requerimento //Protocolo
-//	public void clicarCancelar() throws Exception {
-//
-//		clicarElemento(By.xpath("*//table[6]/tbody/tr/td[2]/input"), "Botão Cancelar");
-//		
-//		pausar(2000);
-//	}
-//
-//	//Requerimento //Protocolo
-//	public void verificarNomeAluno() throws Exception {
-//
-//		contemTextoPresentePorElemento2(By.name("cod_matricula_aluno"), "201703061373", "Verifica se apresenta nome de Aluno");
-//		//String codigoMatricula = driver.findElement(By.name("cod_matricula_aluno")).getAttribute("value");
-//
-//		pausar(2000);
-//		
-//	}
-//	
-//	//Requerimento //Protocolo
-//	public void clicarRetornar() throws Exception {
-//
-//		clicarElemento(By.name("acao"), "Botão Retornar");
-//	}
-//	
+
+	// cadastro
+	public void preencherMatriculaAluno() throws Exception {
+
+		escreverTexto(By.name("cod_matricula"), "201702077071", "Preenche a matricula 201702077071");
+
+	}
+
+	public void clicarNomeRequerente() throws Exception {
+
+		clicarElemento(By.name("nom_requerente"), "Nome Requerente");
+
+		pausar(2000);
+	}
+
+
+
+	// cadastro
+	public void clicarPesquisar() throws Exception {
+
+		clicarElemento(By.name("acao"), "Botão Pesquisar");
+
+		pausar(2000);
+	}
+
+	//
+
+	public void clicarElementoEncontrado() throws Exception {
+
+		clicarElemento(By.name("campo01"), "Radiobutton Campo01 Matr 2017.03.06137-3");
+
+		pausar(2000);
+	}
+
+	// Requerimento
+	public void clicarContinuar() throws Exception {
+
+		clicarElemento(By.xpath("*//table[5]/tbody/tr/td[1]/input"), "Botão Continuar");
+
+		pausar(2000);
+	}
+
+	// Requerimento
+	public void SelecionarCategoria() throws Exception {
+
+		clicarElemento(By.name("num_seq_categoria"), "Seleciona na Categoria");
+
+		pausar(2000);
+
+		selecionarElementoPorTexto(By.name("num_seq_categoria"), "MATRÍCULA/TRANSFERÊNCIA", "Categoria Requerimento");
+	}
+
+
+	public void SelecionarTransferenciaInterna() throws Exception {
+
+		clicarElemento(By.xpath("(//input[@name='selecao'])[41]"), "Transferencia Interna de Turno");
+		pausar(2000);
+
+	}
+
+	// Requerimento
+	public void clicarContinuar2() throws Exception {
+
+		clicarElemento(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='MATRÍCULA/TRANSFERÊNCIA'])[43]/following::input[14]"), "Botão Continuar2");
+
+		pausar(2000);
+	}
+
+	public void preencheObservacao() throws Exception {
+
+		escreverTexto(By.name("text_filtro_1"), "Solicito transferencia interna de curso XXX", "Preenche Observação");
+
+		pausar(2000);
+	}
+	
+	public void SelecionarTurno() throws Exception {
+		
+		clicarElemento(By.id("slc_combo_1"), "Turno");
+
+		pausar(2000);
+		
+		selecionarElementoPorTexto(By.id("slc_combo_1"), "TARDE", "Turno");
+	}
+	
+
+	// Requerimento
+	public void clicarContinuar3() throws Exception {
+
+		clicarElemento(By.xpath("*//table[3]/tbody/tr/td/input"), "Botão Continuar3");
+
+		pausar(2000);
+	}
+
+	
+	public void clicarConfirmar() throws Exception {
+
+		clicarElemento(By.xpath("*//table[3]/tbody/tr/td/input"), "Botão Confirmar");
+
+		pausar(2000);
+	}
+
+	// Requerimento
+		public void clicarOK() throws Exception {
+
+			clicarElemento(By.xpath("*//table[2]/tbody/tr/td/input"), "Botão OK");
+
+			pausar(2000);
+		}
+	
 
 }

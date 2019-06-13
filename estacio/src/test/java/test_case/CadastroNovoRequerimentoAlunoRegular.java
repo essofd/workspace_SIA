@@ -5,9 +5,11 @@ import org.junit.Test;
 
 import ftor_junit.CadastroUtils;
 import ftor_junit.ConfigureExecution;
+//import ftor_junit.DSL;
 
-public class CadastroNovoRequerimentoAlunoRegular extends CadastroUtils {
-	
+public class CadastroNovoRequerimentoAlunoRegular extends  CadastroUtils {
+	//private DSL dsl;
+
 	
 	@Before
 	public void AcessarCatalogoSIA() throws Exception {
@@ -16,13 +18,8 @@ public class CadastroNovoRequerimentoAlunoRegular extends CadastroUtils {
 		 * Configura a execução dos testes
 		 *************************************/
 		ConfigureExecution.configurarExecucaoCasosTeste("001");
-//		
-//		acessarURLEstacio();
-//		logarNoSIA();
-//		alterarJanelaSIATopo();
-//		preencherSenhaSIA();
-//		clicarEntrarSIA();
-//		clicarCatalogo();
+		// dsl=new DSL(driver);
+
 	}
 
 	// Caso de Teste
@@ -34,14 +31,34 @@ public class CadastroNovoRequerimentoAlunoRegular extends CadastroUtils {
 		 * Teste
 		 ********************/
 		
-		  alterarFrameMenuLateral();
-          clicarNovoRequerimento();
+		//  dsl.clicarCatalogo();
+		  clicarCatalogo();
+		  clicarMenuRequerimento();
+          clicarSubMenuNovoRequerimento();
           alterarJanelaSIATopo();
+          alterarFrameTopo();
           alterarJanelaPrincipal();
-          clicarLupa();
-          AlterarJanelaPesquisaAluno() ;
-          SelecionaAlunoRegular();
-		
+//          clicarLupa();
+//          AlterarJanelaPesquisaAluno() ; 
+//          SelecionaAlunoRegular();
+//          preencherMatriculaAluno();
+//          clicarPesquisar();
+//          clicarElementoEncontrado();
+          preencherMatriculaAluno();
+          clicarNomeRequerente();
+          clicarContinuar();
+          SelecionarCategoria();
+          mouseScrollCimaParaBaixo();
+          mouseScrollCimaParaBaixo();
+          SelecionarTransferenciaInterna();
+          clicarContinuar2();
+          preencheObservacao();
+          SelecionarTurno();
+          
+          clicarContinuar3();
+          clicarConfirmar();
+          
+          clicarOK();
 
 		/************************************************
 		 * -->Adiciona imagem ao relatório ExtentReports; -->Finaliza o relatório.
